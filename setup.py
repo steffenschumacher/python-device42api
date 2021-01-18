@@ -14,8 +14,7 @@ with open("README.md", "r") as fh:
 name = 'device42api'
 version = '1.4.dev1'
 install_requires = [
-    'httplib2 >= 0.8',
-    'simplejson >= 1.4.6',
+    'requests',
     'urllib3 >= 1.25.7'
 ]
 
